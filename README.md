@@ -8,26 +8,26 @@ This project implements a comprehensive SystemVerilog verification environment f
 ```
 ALU_TB/
 ├── README.md
-├── docs/                          # Documentation
+├── docs/                               # Documentation
 ├── src/
 │   ├── design/
-│   │   └── alu_design.sv         # ALU RTL implementation
-│   └── tb/                       # Testbench files
-│       ├── alu_assertions.sv     # SystemVerilog assertions
-│       ├── alu_bind.sv          # Assertion binding
-│       ├── alu_driver.sv        # Driver class
-│       ├── alu_environment.sv   # Environment class
-│       ├── alu_generator.sv     # Transaction generator
-│       ├── alu_if.sv           # Interface definition
-│       ├── alu_monitor.sv      # Monitor class
-│       ├── alu_pkg.sv          # Package definition
-│       ├── alu_reference_model.sv # Golden reference
-│       ├── alu_scoreboard.sv   # Scoreboard for checking
-│       ├── alu_test.sv         # Test classes
-│       ├── alu_top.v           # Verilog top module
-│       ├── alu_transaction.sv  # Transaction class
-│       ├── defines.sv          # Macro definitions
-│       └── top.sv              # SystemVerilog top module
+│   │   └── alu_design.sv               # ALU RTL implementation
+│   └── tb/                             # Testbench files
+│       ├── alu_assertions.sv           # SystemVerilog assertions
+│       ├── alu_bind.sv                 # Assertion binding
+│       ├── alu_driver.sv               # Driver class
+│       ├── alu_environment.sv          # Environment class
+│       ├── alu_generator.sv            # Transaction generator
+│       ├── alu_if.sv                   # Interface definition
+│       ├── alu_monitor.sv              # Monitor class
+│       ├── alu_pkg.sv                  # Package definition
+│       ├── alu_reference_model.sv      # Golden reference
+│       ├── alu_scoreboard.sv           # Scoreboard for checking
+│       ├── alu_test.sv                 # Test classes
+│       ├── alu_top.v                   # Verilog top module
+│       ├── alu_transaction.sv          # Transaction class
+│       ├── defines.sv                  # Macro definitions
+│       └── top.sv                      # SystemVerilog top module
 ```
 
 ### Quick Start
@@ -60,6 +60,6 @@ Modify `defines.sv` to customize:
 ## Verification Metrics
 
 The testbench provides comprehensive metrics including:
-- **Transaction Statistics**: Pass/fail ratios, operation distribution
+- **Transaction Statistics**: Pass/fail ratios
 - **Coverage Reports**: Functional and code coverage percentages
 - **Assertion Reports**: Specification compliance verification
